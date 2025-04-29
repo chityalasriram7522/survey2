@@ -1,0 +1,54 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>survey form</title>
+  <link rel="stylesheet" href="styles.css">
+ </head>
+ <body>
+  <div id="mydiv">
+    <h1 id="myh1">SURVEY FORM</h1>
+    <p id="myp1">Thank you for taking the time to help us improve the platform</p>
+  <form action="surveyform">
+    <div class="mydiv"> 
+    <label  >Name</label>
+    <input type="text" name="input1"><br> 
+    <label>Email</label>
+    <input type="email" ><br>
+    <label>Age</label>
+    <input type="number" ><br>
+    <label id="font" >Which option best describes your current role?<select>
+      <option >select cuurent role</option>
+      <option>student</option>
+      <option>full time job</option>
+      <option>work from home</option>
+      <option>part time job</option>
+      <option>other</option>
+    </select></label><br>
+  <label>Would you recommend freeCodeCamp to a friend?</label><br>
+  <label><input type="radio" name="blue">Definitely</label><br>
+  <label><input type="radio" name="blue">May be</label><br>
+  <label><input type="radio" name="blue">Not sure</label><br>
+  <label>What is your favorite feature of freeCodeCamp?<select>
+    <option>select an option</option>
+    <option>challenges</option>
+    <option>projects</option>
+    <option>community</option>
+    <option>open source</option>
+  </select></label><br>
+  <label>What would you like to see improved? (Check all that apply)</label><br>
+  <label><input type="checkbox" name="click">Front-end projects</label><br>
+  <label><input type="checkbox">Back-end project</label><br>
+  <label><input type="checkbox">Data visualization</label><br>
+  <label><input type="checkbox">Challenges</label><br>
+  <label><input type="checkbox">Open source community</label><br>
+  <label><input type="checkbox">Tester</label><br>
+  <label><input type="checkbox">other</label><br>
+  <label>Any comments or suggestions?</label><br>
+  <textarea placeholder="enter your comment here...."></textarea><br>
+  <button type="submit">Submit Here</button>
+</div>
+  </form>
+ </body>
+ </html>
